@@ -1,0 +1,64 @@
+/*
+  Flaticon icon font: Flaticon
+  Creation date: 04/01/2019 13:45
+  */
+
+
+@font-face {
+  font-family: "GothamPro-Bold";
+  src: url("../fonts/gotham/GothamPro-Bold.eot");
+  src: url("../fonts/gotham/GothamPro-Bold.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/gotham/GothamPro-Bold.woff") format("woff"),
+  url("../fonts/gotham/GothamPro-Bold.ttf") format("truetype"),
+  url("../fonts/gotham/GothamPro-Bold.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "GothamPro-Bold";
+    src: url("../fonts/gotham/GothamPro-Bold.svg#Flaticon") format("svg");
+  }
+}
+
+@font-face {
+  font-family: "GothamPro-Medium";
+  src: url("../fonts/gotham/GothamPro-Medium.eot");
+  src: url("../fonts/gotham/GothamPro-Medium.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/gotham/GothamPro-Medium.woff") format("woff"),
+  url("../fonts/gotham/GothamPro-Medium.ttf") format("truetype"),
+  url("../fonts/gotham/GothamPro-Medium.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "GothamPro-Medium";
+    src: url("../fonts/gotham/GothamPro-Medium.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="gotham-"]:before, [class*=" gotham-"]:before,
+[class^="gotham-"]:after, [class*=" gotham-"]:after {
+  font-family: Flaticon;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-doctor:before { content: "\f100"; }
+.flaticon-stethoscope:before { content: "\f101"; }
+.flaticon-ambulance:before { content: "\f102"; }
+.flaticon-24-hours:before { content: "\f103"; }
+.flaticon-experiment-results:before { content: "\f104"; }
+.flaticon-heart-rate:before { content: "\f105"; }
+.flaticon-dropper:before { content: "\f106"; }
+.flaticon-first-aid-kit:before { content: "\f107"; }
