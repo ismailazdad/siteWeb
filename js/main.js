@@ -76,10 +76,10 @@
 				var test = $(href);
 				console.log('test',test);
 				console.log('href',href);
-
+				console.log('$(window).height()',$(window).height())
 					$('html,body').stop(true, false).animate({
-						scrollTop: $($.attr(this, 'href')).offset().top - 50,
-						// scrollTop: ($($.attr(this, 'href')).offset().top) - $('#ftco-navbar').offset().top - 110 +"px",
+
+						scrollTop: $($.attr(this, 'href')).offset().top -70,
 					}, 900, 'easeInOutExpo');
 
 			}
@@ -174,7 +174,6 @@
 				$('.number').each(function(){
 					var $this = $(this),
 						num = $this.data('number');
-						console.log(num);
 					$this.animateNumber(
 					  {
 					    number: num,
