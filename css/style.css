@@ -9206,7 +9206,7 @@ textarea.form-control {
 
 .ftco-counter .img {
   display: block;
-  background-size: contain;
+  background-size: contain !important;
   width: 100%;
   position: relative;
   z-index: 1; }
