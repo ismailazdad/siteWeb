@@ -46,19 +46,12 @@
 	var burgerMenu = function() {
 
 		$('body').on('click', '.js-fh5co-nav-toggle', function(event){
-			console.log('burgerMenu');
-			console.log($(this));
 			event.preventDefault();
 			if ( $('#ftco-nav').is(':visible') ) {
 				$(this).removeClass('active');
-				console.log('cas 1');
-				console.log($(this));
 			} else {
 				$(this).addClass('active');
-				console.log('cas 2');
-				console.log($(this));
 			}
-
 		});
 
 	};
@@ -72,15 +65,9 @@
 			console.log('onePageClick');
 			$(".js-fh5co-nav-toggle").click();
 				event.preventDefault();
-				var href = $.attr(this, 'href');
-				var test = $(href);
-				console.log('test',test);
-				console.log('href',href);
-				console.log('$(window).height()',$(window).height())
-					$('html,body').stop(true, false).animate({
-
-						scrollTop: $($.attr(this, 'href')).offset().top -70,
-					}, 900, 'easeInOutExpo');
+				$('html,body').stop(true, false).animate({
+					scrollTop: $($.attr(this, 'href')).offset().top -70,
+				}, 900, 'easeInOutExpo');
 
 			}
 		);
